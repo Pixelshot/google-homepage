@@ -1,0 +1,30 @@
+.label {
+	height: 233px;
+	margin-top: 89px;
+}
+
+img {
+	height: 90px;
+	width: 21%;
+	position: fixed;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+form {
+	height: 100px;
+	width: 30%;
+	position: fixed;
+	top: 51%;
+	left: 43%;
+	transform: translate(-50%, -50%);
+}
+input[type=text] {
+	width: 150%;
+	padding: 10px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	font-size: 14px;
