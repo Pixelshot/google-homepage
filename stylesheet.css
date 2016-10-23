@@ -1,3 +1,63 @@
+/* ===== Nav Bar ===== */
+
+#nav {
+	position: relative;
+}
+header {
+	height: 60px;
+}
+ul {
+	list-style-type: none;
+	float: right;
+}
+
+li {
+	display: inline;
+	padding: 5px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+.mail {
+	margin-top: 0;
+	display: inline-block;
+	line-height: 24px;
+	vertical-align: middle;
+	color: #000;
+	text-decoration: none;
+}
+
+.mail:hover {
+	text-decoration: underline;
+}
+
+.pics {
+	text-decoration: none;
+}
+
+.pics:hover {
+	text-decoration: underline;
+}
+
+.material-icons.md-48 {
+
+}
+
+.button {
+	background-color: #4285f4;
+    border: 1px solid;
+    color: white;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+	font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.
+/* ===== Body ===== */
 .label {
 	height: 233px;
 	margin-top: 89px;
@@ -20,6 +80,7 @@ form {
 	left: 43%;
 	transform: translate(-50%, -50%);
 }
+
 input[type=text] {
 	width: 150%;
 	padding: 10px 20px;
@@ -27,4 +88,15 @@ input[type=text] {
 	display: inline-block;
 	border: 1px solid #ccc;
 	box-sizing: border-box;
-	font-size: 14px;
+	font-size: 16px;
+	font-family: arial, sans-serif;
+
+}
+
+.mic {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC) no-repeat -3px 0;
+	background-size: 24px 24px;
+	background-position: 98% 50%;
+}
+
+/* ===== Footer ===== */
